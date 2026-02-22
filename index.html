@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Manikandan - DevOps / Cloud Engineer | Automation, CI/CD, AWS, Kubernetes">
+  <meta name="author" content="Manikandan">
+  <title>Manikandan | DevOps / Cloud Engineer</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Google Fonts - Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("3V6eoZAl3uRu-0-lI"); 
+    })();
+  </script>
+</head>
+
+<body>
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">Manikandan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link btn-resume" href="assets/resume/Cloud.pdf" download="Manikandan_Resume.pdf">Download</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-8 mx-auto text-center">
+          <!-- hero image removed per request -->
+          <p class="hero-greeting reveal">Hello, I'm</p>
+          <h1 class="hero-name reveal">Manikandan</h1>
+          <p class="hero-title reveal">DevOps / Cloud Engineer</p>
+          <p class="hero-tagline reveal">Automating deployments, scaling infrastructure, and building reliable CI/CD pipelines.</p>
+          <div class="hero-buttons reveal">
+            <a href="#contact" class="btn btn-primary-custom">Hire Me</a>
+            <a href="assets/resume/Cloud.pdf" download="Manikandan_Cloud_Resume.pdf" class="btn btn-outline-custom">
+              <i class="fas fa-cloud"></i> Cloud Resume
+            </a>
+            <a href="assets/resume/Java.pdf" download="Manikandan_Java_Resume.pdf" class="btn btn-outline-custom">
+              <i class="fas fa-code"></i> Java Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to about">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0 reveal">
+          <h2 class="section-title">About Me</h2>
+          <p class="about-text">
+            Hi, I'm Manikandan, a passionate <strong>DevOps / Cloud Engineer</strong> with a focus on automation, cloud infrastructure, and CI/CD. I specialize in bridging development and operations to deliver scalable, secure, and efficient systems.
+          </p>
+          <p class="about-text">
+            From coding to cloud, my journey is driven by curiosity and a love for problem-solving. I enjoy designing pipelines, managing Linux environments, and leveraging tools like <strong>AWS</strong>, <strong>Docker</strong>, <strong>Kubernetes</strong>, and <strong>Terraform</strong> to enable seamless software delivery.
+          </p>
+          <p class="about-text">
+            When I'm not optimizing deployments or automating workflows, I'm exploring new technologies and sharing knowledge with the DevOps community.
+          </p>
+        </div>
+        <div class="col-lg-5 offset-lg-1 reveal">
+          <div class="about-card">
+            <div class="about-card-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <p class="about-card-text">Automation · Cloud · CI/CD · Linux</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <h2 class="section-title text-center reveal">Skills & Technologies</h2>
+      <p class="section-subtitle text-center reveal">Tools and platforms I work with</p>
+      <div class="row g-4 justify-content-center">
+        <!-- Web & Java Tech Stack -->
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fas fa-code skill-icon"></i>
+            <span>Web Technology</span>
+            <small class="skill-sub">HTML5, CSS3</small>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fab fa-java skill-icon"></i>
+            <span>Core Java</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fab fa-java skill-icon"></i>
+            <span>Advanced Java</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fab fa-js skill-icon"></i>
+            <span>JavaScript</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fas fa-leaf skill-icon"></i>
+            <span>Spring Boot</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fas fa-database skill-icon"></i>
+            <span>SQL Database</span>
+            <small class="skill-sub">MySQL</small>
+          </div>
+        </div>
+        <!-- DevOps & Cloud -->
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fab fa-aws skill-icon"></i>
+            <span>AWS</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fab fa-linux skill-icon"></i>
+            <span>Linux</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fab fa-docker skill-icon"></i>
+            <span>Docker</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fas fa-dharmachakra skill-icon"></i>
+            <span>Kubernetes</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fab fa-jenkins skill-icon"></i>
+            <span>Jenkins</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fab fa-git-alt skill-icon"></i>
+            <span>Git & GitHub</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fas fa-layer-group skill-icon"></i>
+            <span>Terraform</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 reveal">
+          <div class="skill-card">
+            <i class="fas fa-stream skill-icon"></i>
+            <span>CI/CD Pipelines</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <h2 class="section-title text-center reveal">Featured Projects</h2>
+      <p class="section-subtitle text-center reveal">DevOps & cloud automation projects</p>
+      <div class="row g-4">
+        <div class="col-lg-4 reveal">
+          <div class="project-card">
+            <div class="project-card-image">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">CI/CD Pipeline with AWS EKS</h3>
+              <p class="project-card-desc">Zero-downtime GitOps-driven CI/CD pipeline automating application rollouts with Jenkins, ArgoCD, and AWS EKS.</p>
+              <div class="project-tools">
+                <span>Jenkins</span>
+                <span>AWS EKS</span>
+                <span>ArgoCD</span>
+              </div>
+              <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-github">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 reveal">
+          <div class="project-card">
+            <div class="project-card-image">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">Kubernetes Backups with Velero</h3>
+              <p class="project-card-desc">Automated backup and disaster recovery for AWS EKS using Velero and S3 for cluster state and persistent volumes.</p>
+              <div class="project-tools">
+                <span>AWS EKS</span>
+                <span>Velero</span>
+                <span>S3</span>
+              </div>
+              <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-github">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 reveal">
+          <div class="project-card">
+            <div class="project-card-image">
+              <i class="fas fa-code-branch"></i>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-card-title">Infrastructure as Code with Terraform</h3>
+              <p class="project-card-desc">Provisioned and managed cloud infrastructure using Terraform—VPC, EKS, RDS, and networking components.</p>
+              <div class="project-tools">
+                <span>Terraform</span>
+                <span>AWS</span>
+                <span>Docker</span>
+              </div>
+              <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-github">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title text-center reveal">Get in Touch</h2>
+      <p class="section-subtitle text-center reveal">Let's connect for DevOps and cloud opportunities</p>
+      <div class="row g-4">
+        <div class="col-lg-4 reveal">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:mani26012004@gmail.com">mani26012004@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin-in"></i>
+              <div>
+                <strong>LinkedIn</strong>
+                <a href="https://www.linkedin.com/in/manikandan34" target="_blank" rel="noopener">linkedin/manikandan34</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <div>
+                <strong>GitHub</strong>
+                <a href="https://github.com/ManikandanA204" target="_blank" rel="noopener">github/ManikandanA204</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 reveal">
+          <div class="contact-form-wrapper">
+            <form class="contact-form" id="contactForm" onsubmit="return sendMail(event)">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" required placeholder="Your name">
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" required placeholder="your@email.com">
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="4" required placeholder="Your message"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary-custom">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EMAILJS FUNCTION ========== -->
+  <script>
+    function sendMail(event) {
+      event.preventDefault();
+
+      let params = {
+        from_name: document.getElementById("name").value,
+        from_email: document.getElementById("email").value,
+        message: document.getElementById("message").value
+      };
+
+      emailjs.send("service_b63xpgt", "template_rg00efs", params)
+      .then(() => {
+        alert("Message sent successfully!");
+        document.getElementById("contactForm").reset();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      })
+      .catch((error) => {
+        console.error(error);
+        alert("Something went wrong!");
+      });
+
+      return false;
+    }
+  </script>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">&copy; <span id="year"></span> Manikandan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
